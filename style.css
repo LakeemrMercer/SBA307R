@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0
+    ;
+}
+
+.main{
+    width: 100%;
+    background-color: bisque(to top, yellow);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:black
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 25px
+    float: left;
+    padding-top: 5px;
+}
+
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+u1{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+u1 li{
+    list-style:georgian
+    margin-left: 65px
+    margin-top: 24px
+    font-size: 12px;
+}
+
+u1 li a{
+    text-decoration: none;
+color: yellow
+font-family: arial;
+font weight: bold;
+transition: 0.4s ease-in-out
+}
+
+u1 li a:hover{
+    color:black
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: local;
+    border: 1px solid orange;
+    margin-top: 15px;
+    color:floralwhite
+    border-right: none;
+    font-size: 19px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: bisque;
+    border: 2px solid bisque;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.btn:focus{
+    outline-style: none;
+}
+
+.srch:focus{
+    outline-color: aqua;
+}
+
+.content{
+    width:1200px;
+    height: auto;
+    margin: auto;
+    color: black
+    Position: rgb(from color r g b);
+}
+
+.content .par{
+    padding-left: 20;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacomg: 1.2px;
+    line-height: 30px;
+}
+.content.h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 9%;
+    Letter-spacing: 2px;
+
+}
+
+.content. cn{
+    width: 160px;
+    height: 40px;
+    background-color: floralwhite;
+    border-style: dotted;
+    Margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: e-resize;
+
+}
+
+.content .cn a{
+    text-decoration: wavy;
+    color: blanchedalmond;
+    transiiton: .3s ease;
+}
+
+.cn:hover{
+    background-color: khaki;
+}
+
+.content span{
+    color: black;
+    font-size: 6px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: lightgoldenrodyellow
+    position:color-mix(in hsl shorter hue, color percentage, color percentage)
+    top: 20px;
+    left; 870px
+    border-radius; 10px
+    padding; 25px;
+}
